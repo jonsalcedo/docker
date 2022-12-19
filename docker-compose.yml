@@ -16,7 +16,7 @@ services:
         networks:
             - network_test
     www:
-        image: jsalcedo90/ejemplodockerlaravel:2.0
+        image: jsalcedo90/ejemplodockerlaravel:2.1
         container_name: apachelaravel
         ports: 
             - 80:80
